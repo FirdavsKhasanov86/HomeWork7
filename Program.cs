@@ -18,13 +18,25 @@ namespace HomeWork7
             //     rec.PerimeterCalculator(side1,side2);
 
           //----------------------------------------------------//
-            
-
+            //Задание 2.
+            //  Console.Write("Write Title:"); 
+            //  string bookTitle = Console.ReadLine();
+            //  Console.Write("Write Author:"); 
+            //  string bookAuthor = Console.ReadLine();
+            //  Console.Write("Write Content:"); 
+            //  string bookContent = Console.ReadLine();
+            // Book b = new Book();
+            // b.ShowTitle(bookTitle);
+            // b.ShowAuthor(bookAuthor);
+            // b.ShowContent(bookContent);
+           
           //-------------------------------------------------------//
 
           
         }
     }
+
+    
 
     //Задание 1.
     //  class Rectangle
@@ -47,7 +59,28 @@ namespace HomeWork7
     //  }
 
     //------------------------------------------------------------------------------------//
-    
+    //Задание2.
+
+    // class Book
+    // {
+    //     public string title {get;set;}
+    //     public string author {get; set;}
+    //     public string content {get;set;}
+
+    //      public void ShowTitle(string title){
+    //        Console.ForegroundColor = ConsoleColor.Yellow;  
+    //          Console.WriteLine(title);
+    //      }
+    //      public void ShowAuthor(string author){
+    //        Console.ForegroundColor = ConsoleColor.Red;  
+    //          Console.WriteLine(author);
+    //      }
+    //      public void ShowContent(string content){
+    //        Console.ForegroundColor = ConsoleColor.Green;  
+    //          Console.WriteLine(content);
+    //      }
+    // }
+
 
     //---------------------------------------------------------------//
 
