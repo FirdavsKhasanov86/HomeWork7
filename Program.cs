@@ -32,6 +32,12 @@ namespace HomeWork7
            
           //-------------------------------------------------------//
 
+          //Задание 3. 
+          
+         //   Car c = new Car("Toyta", "White", 240); 
+         //    c.getInfo(); 
+
+
           
         }
     }
@@ -84,7 +90,29 @@ namespace HomeWork7
 
     //---------------------------------------------------------------//
 
-    
+    //Задание 3.
+
+    // class Car 
+    // {
+    //   public string model {get;set;}
+    //   public string color {get;set;}
+    //   public int speed {get;set;}
+
+    //   public Car(string model, string color, int speed){
+    //     this.model = model;
+    //     this.color = color;
+    //     this.speed = speed;
+    //   }
+      
+      
+    //   public void getInfo(){
+          
+    //     Console.WriteLine($"model = {this.model}");
+    //     Console.WriteLine($"model = {this.color}");
+    //     Console.WriteLine($"model = {this.speed}");
+    //   }
+
+    // }
     
     
     
