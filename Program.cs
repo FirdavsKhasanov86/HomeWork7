@@ -34,9 +34,11 @@ namespace HomeWork7
 
           //Задание 3. 
           
-         //   Car c = new Car("Toyta", "White", 240); 
-         //    c.getInfo(); 
-
+           Car c = new Car("Toyota", "White", 240, 2010);
+            c.getInfo(); 
+            c.Drive();
+            c.Stop();
+            c.SpeedUp();
 
           
         }
@@ -92,27 +94,42 @@ namespace HomeWork7
 
     //Задание 3.
 
-    // class Car 
-    // {
-    //   public string model {get;set;}
-    //   public string color {get;set;}
-    //   public int speed {get;set;}
+    class Car 
+    {
+      public string model {get;set;}
+      public string color {get;set;}
+      public int speed {get;set;}
+      public int year{get;set;}
 
-    //   public Car(string model, string color, int speed){
-    //     this.model = model;
-    //     this.color = color;
-    //     this.speed = speed;
-    //   }
+      public Car(string model, string color, int speed, int year){
+        this.model = model;
+        this.color = color;
+        this.speed = speed;
+        this.year = year;
+      }
       
       
-    //   public void getInfo(){
+      public void getInfo(){
           
-    //     Console.WriteLine($"model = {this.model}");
-    //     Console.WriteLine($"model = {this.color}");
-    //     Console.WriteLine($"model = {this.speed}");
-    //   }
+        Console.WriteLine($"Model = {this.model}");
+        Console.WriteLine($"Color = {this.color}");
+        Console.WriteLine($"Speed = {this.speed} km/h");
+        Console.WriteLine($"Year = {this.year}");
+        Console.WriteLine("-------------------------------");
+      }
 
-    // }
+      public void Drive(){
+        Console.WriteLine("I can drive");
+      }
+
+      public void Stop(){
+        Console.WriteLine("I can stop");
+      }
+      public void SpeedUp(){
+        Console.WriteLine("I can speedUp to 240 km/h");
+      }
+
+    }
     
     
     
